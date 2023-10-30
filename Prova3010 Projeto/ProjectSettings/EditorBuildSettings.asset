@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Fantasy Adventure Pack/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Fantasy Adventure Pack/Scenes/Credits.unity
+    guid: ff37ef5049a62f646baed830b9769f20
+  - enabled: 1
+    path: Assets/Fantasy Adventure Pack/Scenes/Tutorial.unity
+    guid: 9a8c11b6e054f0e49973c1ebb760230d
+  - enabled: 1
+    path: Assets/Fantasy Adventure Pack/Scenes/GamePlay.unity
+    guid: d7480dbea016a9b48a17cf64894f723b
+  m_configObjects: {}
