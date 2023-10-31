@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
 
     void FlipSprite()
     {
-        if(isFacingRight && horizontalInput < 0f || !isFacingRight && horizontalInput > 0f)
+        if(isFacingRight && horizontalInput > 0f || !isFacingRight && horizontalInput < 0f)
         {
             isFacingRight = !isFacingRight;
             Vector3 ls = transform.localScale;
