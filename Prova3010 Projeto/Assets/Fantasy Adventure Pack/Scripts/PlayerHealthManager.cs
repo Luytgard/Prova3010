@@ -10,6 +10,11 @@ public class PlayerHealthManager : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+
+    void Awake()
+    {
+        health = 6;
+    }
     
 
     // Update is called once per frame
