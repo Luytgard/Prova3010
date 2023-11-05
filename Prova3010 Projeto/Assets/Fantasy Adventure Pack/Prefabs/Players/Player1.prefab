@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2011858513}
   - component: {fileID: 2011858516}
   - component: {fileID: 2011858520}
+  - component: {fileID: 301345853}
   m_Layer: 8
   m_Name: Player1
   m_TagString: Untagged
@@ -183,8 +184,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.15}
-  m_Size: {x: 0.2, y: 0.02}
+  m_Offset: {x: 0, y: -0.16}
+  m_Size: {x: 0.2, y: 0.03}
   m_Direction: 1
 --- !u!114 &2011858520
 MonoBehaviour:
@@ -201,3 +202,15 @@ MonoBehaviour:
   moveSpeed: 6
   jumpPower: 8
   animator: {fileID: 7738907795435258548}
+--- !u!114 &301345853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738907795435258547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954b696a92e1c014c89f644ef8b504b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
