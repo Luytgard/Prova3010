@@ -9,9 +9,10 @@ public class PlayerTriggerCollision : MonoBehaviour
         if (collision.transform.tag == "Enemy")
         {
             PlayerHealthManager.health--;
+            
             if (PlayerHealthManager.health <= 0)
             {
-                //PlayerManager.isGameOver = true;
+                PlayerManager1.isGameOver = true;
                 //AudioManager.instance.Play("GameOver");
                 gameObject.SetActive(false);
             }
