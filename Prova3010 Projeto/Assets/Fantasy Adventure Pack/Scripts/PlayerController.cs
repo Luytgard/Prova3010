@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     public float jumpPower = 6f;
     bool isGrounded = false;
     bool isFacingRight = false;
-    bool isFalling = false;
 
     Rigidbody2D rb;
     public Animator animator;

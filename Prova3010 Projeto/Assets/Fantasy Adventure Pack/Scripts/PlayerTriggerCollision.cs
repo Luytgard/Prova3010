@@ -9,9 +9,10 @@ public class PlayerTriggerCollision : MonoBehaviour
         if (collision.transform.tag == "Enemy")
         {
             PlayerHealthManager.health--;
+
             if (PlayerHealthManager.health <= 0)
             {
-                //PlayerManager.isGameOver = true;
+                PlayerManager1.isGameOver = true;
                 //AudioManager.instance.Play("GameOver");
                 gameObject.SetActive(false);
             }
@@ -28,6 +29,6 @@ public class PlayerTriggerCollision : MonoBehaviour
         yield return new WaitForSeconds(1);
         GetComponent<Animator>().SetLayerWeight(1, 0);
         yield return new WaitForSeconds(2);
-        Physics2D.IgnoreLayerCollision(8, 10,false);
+        Physics2D.IgnoreLayerCollision(8, 10, false);
     }
 }
