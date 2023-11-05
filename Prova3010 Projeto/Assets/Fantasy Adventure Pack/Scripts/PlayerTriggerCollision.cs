@@ -11,14 +11,20 @@ public class PlayerTriggerCollision : MonoBehaviour
             PlayerHealthManager.health--;
             if (PlayerHealthManager.health <= 0)
             {
-                PlayerManager.isGameOver = true;
-                AudioManager.instance.Play("GameOver");
+                //PlayerManager.isGameOver = true;
+                //AudioManager.instance.Play("GameOver");
                 gameObject.SetActive(false);
+            }
+            else
+            {
+                StartCoroutine(GetHurt());
             }
         }
     }
     IEnumerator GetHurt()
     {
-        Physics2D.IgnoreLayerCollision()
+        Physics2D.IgnoreLayerCollision(8, 10);
+        yield return new WaitForSeconds(3);
+        Physics2D.IgnoreLayerCollision(8, 10,false);
     }
 }
