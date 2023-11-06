@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5459489562726362244}
   - component: {fileID: 5459489562726362247}
   - component: {fileID: 2139690547508761980}
+  - component: {fileID: 5684412638963590094}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 4
   m_Sprite: {fileID: 5407190452334702329, guid: c6d8fb77b2bd00b42bf2878d974c71e3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -99,3 +100,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.1}
   serializedVersion: 2
   m_Radius: 0.4
+--- !u!114 &5684412638963590094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5459489562726362246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336ce21a0fead4f4b8c2a368c93e1303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
