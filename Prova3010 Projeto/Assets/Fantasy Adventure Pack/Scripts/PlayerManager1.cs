@@ -18,6 +18,7 @@ public class PlayerManager1 : MonoBehaviour
         //numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins");// Isso salva aquantidade de moedas, ativar nos scripts PlayerManager1 e Coins
         isGameOver = false;
         GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPosition;
+        Time.timeScale = 1;
     }
     // Start is called before the first frame update
     void Start()

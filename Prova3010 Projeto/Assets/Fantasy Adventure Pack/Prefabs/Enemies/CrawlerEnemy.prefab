@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1900813444538668844}
   - component: {fileID: 1591820082393783462}
   - component: {fileID: 5514389670052672744}
+  - component: {fileID: 4477015389762295263}
   m_Layer: 10
   m_Name: CrawlerEnemy
   m_TagString: Enemy
@@ -144,3 +145,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.8
   range: 2
+--- !u!114 &4477015389762295263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2889701449202942340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e1b16ec44258c44bec51cc952d6714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  deathEffect: {fileID: 0}

@@ -1288,6 +1288,7 @@ GameObject:
   - component: {fileID: 397162405}
   - component: {fileID: 397162404}
   - component: {fileID: 397162403}
+  - component: {fileID: 397162408}
   m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
@@ -31117,6 +31118,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &397162408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397162401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ee8d54e43242a4cb85284f03b24680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &405793537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3136192437839426339, guid: 66f9107052a3f304e9502430bab98c19, type: 3}
@@ -33638,6 +33651,7 @@ GameObject:
   - component: {fileID: 1165647140}
   - component: {fileID: 1165647139}
   - component: {fileID: 1165647138}
+  - component: {fileID: 1165647143}
   m_Layer: 0
   m_Name: Ceiling
   m_TagString: Untagged
@@ -33669,7 +33683,7 @@ CompositeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -35673,6 +35687,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1165647143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165647136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ee8d54e43242a4cb85284f03b24680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1176536976 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3136192437839426339, guid: 66f9107052a3f304e9502430bab98c19, type: 3}
