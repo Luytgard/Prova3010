@@ -31605,8 +31605,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 0.15}
+  m_Offset: {x: -0.26, y: 0}
+  m_Size: {x: 1.47, y: 1.24}
   m_Direction: 1
 --- !u!4 &529406553 stripped
 Transform:
@@ -33187,25 +33187,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoToScene2
       objectReference: {fileID: 0}
+    - target: {fileID: 45623601423633229, guid: c016bb88ad7668f4bbdca8aa9f94e206, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7532c6235ff79b04ab897179b6cb3016, type: 3}
     - target: {fileID: 45623601423633230, guid: c016bb88ad7668f4bbdca8aa9f94e206, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 45623601423633230, guid: c016bb88ad7668f4bbdca8aa9f94e206, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 45623601423633230, guid: c016bb88ad7668f4bbdca8aa9f94e206, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 45623601423633230, guid: c016bb88ad7668f4bbdca8aa9f94e206, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 168.5033
+      value: 169.78
       objectReference: {fileID: 0}
     - target: {fileID: 45623601423633230, guid: c016bb88ad7668f4bbdca8aa9f94e206, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.33
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 45623601423633230, guid: c016bb88ad7668f4bbdca8aa9f94e206, type: 3}
       propertyPath: m_LocalPosition.z
