@@ -15,6 +15,7 @@ public class PlayerManager1 : MonoBehaviour
 
     private void Awake()
     {
+        //numberOfCoins = PlayerPrefs.GetInt("NumberOfCoins");// Isso salva aquantidade de moedas, ativar nos scripts PlayerManager1 e Coins
         isGameOver = false;
         GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPosition;
     }
